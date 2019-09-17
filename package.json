@@ -1,0 +1,22 @@
+{
+  "name": "find-next-version",
+  "version": "0.0.0",
+  "description": "find next version",
+  "scripts": {
+    "build": "uglifyjs -c -m -o dist/find-next-version.min.js -- lib/find-next-version.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getto-systems/node-find-next-version.git"
+  },
+  "author": "shun@getto.systems",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getto-systems/node-find-next-version/issues"
+  },
+  "homepage": "https://github.com/getto-systems/node-find-next-version#readme",
+  "devDependencies": {
+    "uglify-js": "^3.6.0"
+  }
+}
