@@ -2,6 +2,8 @@
 
 find next version
 
+status: production ready
+
 ```html
 <script src="/path/to/find-next-version.js" defer></script>
 <script defer>
