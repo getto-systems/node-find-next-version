@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 1.3.0
+
+- fix: fallback_version : See merge request getto-systems-base/labo/node/find-next-version!9
+- fix: fallback_version : See merge request getto-systems-base/labo/node/find-next-version!8
+
+
 ## Version : 1.2.2
 
 - fix: gitignore : See merge request getto-systems-base/labo/node/find-next-version!7
