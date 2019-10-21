@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 1.2.1
+
+- fix: gitlab-ci : See merge request getto-systems-base/labo/node/find-next-version!6
+- fix: publish : See merge request getto-systems-base/labo/node/find-next-version!5
+
+
 ## Version : 1.2.0
 
 - fix: fallback_version : See merge request getto-systems-base/labo/node/find-next-version!4
