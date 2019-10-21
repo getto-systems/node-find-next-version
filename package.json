@@ -1,6 +1,6 @@
 {
   "name": "find-next-version",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "find next version",
   "scripts": {
     "build": "uglifyjs -c -m -o dist/find-next-version.min.js -- lib/find-next-version.js",
