@@ -17,6 +17,7 @@ release:
     GIT_USER_EMAIL: admin@getto.systems
 
   script:
+    - npm run build
     - curl https://raw.githubusercontent.com/getto-systems/version-dump/master/bin/version_dump.sh | bash
     - curl https://raw.githubusercontent.com/getto-systems/version-dump/master/bin/push_tags.sh | bash
     - ./bin/publish.sh
