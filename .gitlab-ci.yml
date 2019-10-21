@@ -16,6 +16,8 @@ release:
     GIT_USER_NAME: getto
     GIT_USER_EMAIL: admin@getto.systems
 
+  before_script:
+    - npm install
   script:
     - npm run build
     - curl https://raw.githubusercontent.com/getto-systems/version-dump/master/bin/version_dump.sh | bash
