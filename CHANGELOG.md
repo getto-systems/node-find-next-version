@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.2.2
+
+- fix: gitignore : See merge request getto-systems-base/labo/node/find-next-version!7
+
+
 ## Version : 1.2.1
 
 - fix: gitlab-ci : See merge request getto-systems-base/labo/node/find-next-version!6
