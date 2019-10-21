@@ -84,6 +84,9 @@ FindNextVersion.parse_pathname("/1.0.0/path/to/request")
 
 FindNextVersion.parse_pathname("/")
 // => { version: "0.0.0", path: "" }
+
+FindNextVersion.parse_pathname("/", {fallback_version: "2.0.0"})
+// => { version: "2.0.0", path: "" }
 ```
 
 
