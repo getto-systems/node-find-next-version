@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 1.3.1
+
+- fix: build script : See merge request getto-systems-base/labo/node/find-next-version!11
+- remove: dist : See merge request getto-systems-base/labo/node/find-next-version!10
+
+
 ## Version : 1.3.0
 
 - fix: fallback_version : See merge request getto-systems-base/labo/node/find-next-version!9
