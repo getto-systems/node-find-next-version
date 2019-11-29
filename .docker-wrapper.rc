@@ -1,1 +1,1 @@
-DOCKER_WRAPPER_IMAGE_node(){ echo "10.16.0-stretch"; }
+DOCKER_WRAPPER_IMAGE_node(){ head -1 $APP_ROOT/.gitlab-ci.yml | cut -d' ' -f2; }
