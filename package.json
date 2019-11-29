@@ -1,6 +1,6 @@
 {
   "name": "find-next-version",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "find next version",
   "scripts": {
     "build": "mkdir -p dist && uglifyjs -c -m -o dist/find-next-version.min.js -- lib/find-next-version.js",
