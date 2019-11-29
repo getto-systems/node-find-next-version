@@ -1,24 +1,9 @@
 image: node:10.16.0-stretch
 
 stages:
-  - test
   - version_dump
   - release
   - release_notify
-
-test:
-  stage: test
-  only:
-    refs:
-      - merge_requests
-    changes:
-      - index.js
-      - test/**/*
-
-  before_script:
-    - npm clean-install
-  script:
-    - npm test
 
 version_dump:
   stage: version_dump
@@ -51,10 +36,7 @@ release:
       - triggers
       - schedules
 
-  before_script:
-    - npm clean-install
   script:
-    - npm test
     - curl https://raw.githubusercontent.com/getto-systems/version-dump/master/bin/push_tags.sh | bash
     - ./bin/publish.sh
 
