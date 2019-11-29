@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version : 1.3.2
+
+- fix: gitlab-ci : See merge request getto-systems-base/labo/node/find-next-version!13
+- fix: set-window-title : See merge request getto-systems-base/labo/node/find-next-version!12
+
+
 ## Version : 1.3.1
 
 - fix: build script : See merge request getto-systems-base/labo/node/find-next-version!11
