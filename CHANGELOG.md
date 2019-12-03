@@ -2,6 +2,11 @@
 
 ## Version : 1.3.3
 
+- fix: gitlab-ci : See merge request getto-systems-base/labo/node/find-next-version!17
+
+
+## Version : 1.3.3
+
 - fix: gitlab-ci : See merge request getto-systems-base/labo/node/find-next-version!15
 - version dump: 1.3.2 : See merge request getto-systems-base/labo/node/find-next-version!14
 - fix: gitlab-ci : See merge request getto-systems-base/labo/node/find-next-version!13
