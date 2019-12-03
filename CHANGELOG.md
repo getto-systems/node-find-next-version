@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version : 1.3.5
+
+- fix: deploy : See merge request getto-systems-base/labo/node/find-next-version!23
+
+
 ## Version : 1.3.4
 
 - add: Dockerfile : See merge request getto-systems-base/labo/node/find-next-version!20
