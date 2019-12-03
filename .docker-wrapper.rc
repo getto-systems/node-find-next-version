@@ -1,1 +1,1 @@
-DOCKER_WRAPPER_IMAGE_node(){ head -1 $APP_ROOT/.gitlab-ci.yml | cut -d' ' -f2; }
+DOCKER_WRAPPER_IMAGE_node(){ cat $APP_ROOT/.getto-hangar-image; }
