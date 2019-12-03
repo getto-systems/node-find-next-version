@@ -13,7 +13,7 @@ deploy_to(){
   local target
   target=$1; shift
 
-  npm build && \
+  npm run build && \
   aws s3 cp \
     --acl private \
     --cache-control "public, max-age=31536000" \
