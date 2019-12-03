@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## Version : 1.3.4
+
+- add: Dockerfile : See merge request getto-systems-base/labo/node/find-next-version!20
+- fix: gitlab-ci : See merge request getto-systems-base/labo/node/find-next-version!19
+- version bumped: 1.3.3 : See merge request getto-systems-base/labo/node/find-next-version!18
+- fix: gitlab-ci : See merge request getto-systems-base/labo/node/find-next-version!17
+
+
 ## Version : 1.3.3
 
 - fix: gitlab-ci : See merge request getto-systems-base/labo/node/find-next-version!17
