@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Version : 1.3.7
+
+
+
 ## Version : 1.3.6
 
 - fix: deploy : See merge request getto-systems-base/labo/node/find-next-version!25
